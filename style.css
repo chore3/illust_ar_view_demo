@@ -1,3 +1,7 @@
+:not(:defined) > * {
+    display: none;
+}
+
 html,
 body {
     margin: 0;
