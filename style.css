@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+model-viewer {
+    background-color: #eee;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
