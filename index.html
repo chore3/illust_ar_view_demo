@@ -10,13 +10,19 @@
 
 <body>
     <model-viewer 
-        camera-controls touch-action="pan-y"
-        autoplay ar ar-modes="webxr scene-viewer"
-        animation-name="run"
-        scale="0.2 0.2 0.2" shadow-intensity="1"
+        camera-controls
+        touch-action="pan-y"
+        autoplay animation-name="run"
+        ar ar-modes="webxr scene-viewer"
+        scale="0.2 0.2 0.2"
+        shadow-intensity="1"
         src="assets/models/rikemo.glb"
         alt="An animated 3D model of a Rikemo"
-    ></model-viewer>
+    >
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+    </model-viewer>
 </body>
 
 </html>
