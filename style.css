@@ -11,10 +11,11 @@ body {
 
 model-viewer {
     background-color: #eee;
-    overflow: hidden;
+    overflow-x: hidden;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     display: block;
+    position: relative;
 }
 
 #ar-button {
